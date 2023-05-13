@@ -64,8 +64,6 @@ def new_add_student():
             print("Please Enter Unique Student Name")
             name = input("Please Enter Student Name: ")
             continue
-        else:
-            pass
     while True:
         id = int(input("Please Enter Student ID: "))
         if len(id)!=5:
